@@ -19,7 +19,7 @@ void add_garlic() {
 void add_potato() {
   counter.lock();
   potato_counter++;
-  add_garlic();  // counter locked twice in a row
+  add_garlic();  // no deadlock because of recursive_mutex usage
   counter.unlock();
 }
 
