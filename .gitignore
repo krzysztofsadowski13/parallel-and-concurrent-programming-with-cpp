@@ -48,3 +48,6 @@
 _part_1_exercise_files/*
 part_1/*/*
 !part_1/*/*.cc
+_part_2_exercise_files/*
+part_2/*/*
+!part_2/*/*.cc
